@@ -36,5 +36,20 @@ Here are the steps I did to build Active Directory Demo HomeLab.
 
 <img width="1280" height="1024" alt="WinServer2022AD Domain Account Login Page" src="https://github.com/user-attachments/assets/37cd07c4-2885-44c6-aca2-502896ab63b7" />
 
+**Step 7: After loggin into the new domain with admin username and password, open the Windows PowerShell and run it as Administrator to create the new folder to store the PowerShell scripts in VM.**
+
+<img width="1280" height="1024" alt="WinServer2022AD PowerShell new folder VM" src="https://github.com/user-attachments/assets/0d0a7c7f-015f-4511-bb45-49e497a06fcc" />
+
+**Step 8: Import Active Directory Module in PowerShell to install Active Directory prior to creating organizational units.**
+
+<img width="1280" height="1024" alt="WinServer2022AD PowerShell AD command" src="https://github.com/user-attachments/assets/ccab1be5-b78f-4b69-b7b4-ca5ef44f09bf" />
+
+Step 9: Create a Organizational Units (OUs) in PowerShell.
+
+<img width="1024" height="768" alt="WinServer2022AD NewOrganizationUnit" src="https://github.com/user-attachments/assets/53f54638-8e8c-48c7-8807-c151557c04e8" />
+<img width="1024" height="768" alt="WinServer2022AD OrganizationUnit" src="https://github.com/user-attachments/assets/240745b1-53ea-450f-9e66-a1db7f740e8e" />
+<img width="1024" height="768" alt="WinServer2022AD OrganizationUnit pt2" src="https://github.com/user-attachments/assets/8041fd42-8e5f-4c43-9698-e49cc2c25e52" />
+<img width="1024" height="768" alt="WinServer2022 Ou in AD Users and Computers" src="https://github.com/user-attachments/assets/8a3fc532-d119-4dcc-a2f2-7d9a9078c005" />
+
 
 
