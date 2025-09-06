@@ -44,12 +44,37 @@ Here are the steps I did to build Active Directory Demo HomeLab.
 
 <img width="1280" height="1024" alt="WinServer2022AD PowerShell AD command" src="https://github.com/user-attachments/assets/ccab1be5-b78f-4b69-b7b4-ca5ef44f09bf" />
 
-Step 9: Create a Organizational Units (OUs) in PowerShell.
+**Step 9: Create a Organizational Units (OUs) in PowerShell.**
 
 <img width="1024" height="768" alt="WinServer2022AD NewOrganizationUnit" src="https://github.com/user-attachments/assets/53f54638-8e8c-48c7-8807-c151557c04e8" />
 <img width="1024" height="768" alt="WinServer2022AD OrganizationUnit" src="https://github.com/user-attachments/assets/240745b1-53ea-450f-9e66-a1db7f740e8e" />
 <img width="1024" height="768" alt="WinServer2022AD OrganizationUnit pt2" src="https://github.com/user-attachments/assets/8041fd42-8e5f-4c43-9698-e49cc2c25e52" />
 <img width="1024" height="768" alt="WinServer2022 Ou in AD Users and Computers" src="https://github.com/user-attachments/assets/8a3fc532-d119-4dcc-a2f2-7d9a9078c005" />
+
+**Step 10: Create a new ADUser with the command.**
+
+<img width="1024" height="768" alt="WinServer2022 CreateADUser command" src="https://github.com/user-attachments/assets/00488f62-706f-45dd-b5fd-e743b57aa694" />
+
+Create a new ADUser
+<img width="1024" height="768" alt="WinServer2022 NewADUser" src="https://github.com/user-attachments/assets/11c9c4ef-9388-483b-bf3b-6ca9d5c8a0ab" />
+
+Also Get-ADUser Identity cmdlet to retrieve information.
+<img width="1024" height="768" alt="WinServer2022 ADUserIdentity" src="https://github.com/user-attachments/assets/af4d1c00-adf7-4d9e-af3b-a740e6fd87e4" />
+
+<img width="1024" height="768" alt="WinServer2022 ADUserIdentity p2" src="https://github.com/user-attachments/assets/1773a1da-7654-4074-8d6f-c57870debe07" />
+
+ADUser Filter cmdlet to filter out the search and retrieve desired user account.
+<img width="1024" height="768" alt="WinServer2022ADUser Filter" src="https://github.com/user-attachments/assets/b28d0cbb-1583-4d7a-8521-590b49bf4b5b" />
+
+<img width="1024" height="768" alt="WinServer2022 ADUser Filter with Pipeline" src="https://github.com/user-attachments/assets/683b02b0-9079-4149-b527-f76eade0a8a8" />
+
+Set-ADUser email address and phone number plus change password.
+<img width="1024" height="768" alt="WinServer2022 Set ADUser Email address" src="https://github.com/user-attachments/assets/a3da5e31-b072-432b-ba9b-508c2fab9f3d" />
+
+<img width="1024" height="768" alt="WinServer2022 SetADUser Change Password" src="https://github.com/user-attachments/assets/d5a281d5-e172-46a3-b5f1-4d903cc7cd8e" />
+
+<img width="1024" height="768" alt="WinServer2022 Set ADUser Office Phone Number" src="https://github.com/user-attachments/assets/6336c4c0-e144-404a-8570-39f982716837" />
+
 
 
 
